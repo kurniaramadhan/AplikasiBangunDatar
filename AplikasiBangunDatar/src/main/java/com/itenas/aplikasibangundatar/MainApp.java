@@ -22,5 +22,12 @@ public class MainApp {
         persegiPanjang.setLebar(2);
         System.out.println("Luas Persegi Panjang: " + persegiPanjang.luas());
         System.out.println("Keliling Persegi Panjang: " + persegiPanjang.keliling());
+        
+        Segitiga segitiga = new Segitiga();
+        segitiga.setNamaBangunDatar("Segitiga");
+        segitiga.setAlas(8);
+        segitiga.setTinggi(6);
+        System.out.println("Luas Segitiga: " + segitiga.luas());
+        System.out.println("Keliling Segitiga: " + segitiga.keliling());
     }
 }

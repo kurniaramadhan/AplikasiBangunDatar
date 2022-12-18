@@ -32,9 +32,13 @@ public class Segitiga extends BangunDatar {
     double luas() {
         return 0.5 * alas * tinggi;
     }
+    
+    double sisiMiring() {
+        return Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
+    }
 
     @Override
     double keliling() {
-        return 3 * alas;
+        return alas + tinggi + sisiMiring();
     }
 }
