@@ -29,5 +29,11 @@ public class MainApp {
         segitiga.setTinggi(6);
         System.out.println("Luas Segitiga: " + segitiga.luas());
         System.out.println("Keliling Segitiga: " + segitiga.keliling());
+        
+        Lingkaran lingkaran = new Lingkaran();
+        lingkaran.setNamaBangunDatar("Lingkaran");
+        lingkaran.setRadius(7);
+        System.out.println("Luas Lingkaran: " + lingkaran.luas());
+        System.out.println("Keliling Lingkaran: " + lingkaran.keliling());
     }
 }
