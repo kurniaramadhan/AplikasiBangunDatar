@@ -3,3 +3,6 @@
 
 # Folder maven target
 */target/*
+
+# Main App
+MainApp.java
